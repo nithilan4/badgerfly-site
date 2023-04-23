@@ -1,0 +1,73 @@
+:root {
+    --accent: #A52917;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+	background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+	padding: 0 2em;
+}
+
+#logo {
+    height: 2em;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+#nav > a {
+    color: white;
+    font-family: "Roboto Mono";
+}
+
+#hero {
+  text-align: center;
+  height: calc(100vh - 5em);
+  position: relative;
+  color: white;
+}
+
+#hero-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	filter: brightness(0.6);
+	z-index: -999;
+}
+
+#
+
+.about {
+  background-color: red;
+  color: white;
+  padding: 5rem;
+}
+
+.services {
+  background-color: white;
+  color: black;
+  padding: 5rem;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  padding: 5rem;
+}
+
+form label {
+ 
